@@ -4,8 +4,8 @@ import matplotlib.pyplot as plt
 import numpy as np
 import streamlit as st
 
-json_data = json.load(open('C:/Dimas/Kuliah Essentials/Semester 3/Prokom/UAS/kode_negara_lengkap.json'))
-raw = pd.read_csv('C:/Dimas/Kuliah Essentials/Semester 3/Prokom/UAS/produksi_minyak_mentah.csv')
+json_data = json.load(open('kode_negara_lengkap.json'))
+raw = pd.read_csv('produksi_minyak_mentah.csv')
 
 #country code dict
 list_kode_negara = {}
