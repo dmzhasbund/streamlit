@@ -261,13 +261,3 @@ else:
 col422.metric('Kode Negara',kode_negara1)
 col433.metric('Region', region)
 col444.metric(subregion1, subregion2)
-
-
-#cummulative 0
-'''
-df_cumm = pd.DataFrame(negara_cumm_pair)
-df_cumm_0 = df_cumm[df_cumm['Produksi Kumulatif']==0]
-df_cumm0 = df_cumm_0['Negara']
-
-for data in 
-'''
